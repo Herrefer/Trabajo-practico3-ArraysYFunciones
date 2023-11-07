@@ -1,4 +1,4 @@
-const arrayNumeros = [];
+// const arrayNumeros = [];
 function numeroMayor(array){
     console.log(Math.max(...array))
 }
@@ -13,3 +13,5 @@ function numeroMayor(array){
 //         arrayNumeros.push(numero)
 //     }
 // }
+
+// los comentarios solo son una prueba de  la funcion dentro de un comando
