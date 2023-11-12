@@ -18,6 +18,9 @@ while(true){
         document.write(`<ul>`)
         for (let ciudades = 0; ciudades < listaDeCiudades.length; ciudades++){
             document.write(`<li>Elemento : ${listaDeCiudades[ciudades]}</li>`)
+            if(ciudades === 0){
+                document.write(`<li>Elemento : Barcelona</li>`)
+            }
         }
         document.write(`</ul>`)
         break;
